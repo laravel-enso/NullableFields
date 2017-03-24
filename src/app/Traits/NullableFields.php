@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\NullableFields\Traits;
+namespace LaravelEnso\NullableFields\App\Traits;
 
 trait NullableFields
 {
