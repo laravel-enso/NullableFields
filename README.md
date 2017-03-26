@@ -22,4 +22,4 @@ protected $nullableFields = ['attribute', ...]
 
 ### Note
 
-The laravel-enso/core package comes with this trait included.
+The laravel-enso/core package comes with this library included.
