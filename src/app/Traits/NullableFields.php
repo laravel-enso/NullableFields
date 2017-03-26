@@ -22,10 +22,6 @@ trait NullableFields
 
     public function nullIfEmpty($value)
     {
-        if (is_array($value)) {
-            return empty($value) ? null : $value;
-        }
-
         return trim($value) === '' ? null : $value;
     }
 

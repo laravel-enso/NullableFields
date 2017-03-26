@@ -1,6 +1,6 @@
 {
     "name": "laravel-enso/nullablefields",
-    "description": "Trait for setting nullable fields",
+    "description": "Trait for nullable fields",
     "type": "trait",
     "license": "MIT",
     "authors": [
