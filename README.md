@@ -11,7 +11,7 @@ Trait for nullable fields heavily inspired from michaeldyrynda/laravel-nullable-
 1. In the Model where you want empty strings to be set to null add
 
 ```
-use LaravelEnso\NullableFileds\App\Traits\NullableFileds
+use LaravelEnso\NullableFileds\app\Traits\NullableFileds
 ```
 
 then set the attribute that shold be transformed:
