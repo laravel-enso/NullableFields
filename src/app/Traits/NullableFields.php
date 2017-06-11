@@ -4,8 +4,6 @@ namespace LaravelEnso\NullableFields\app\Traits;
 
 trait NullableFields
 {
-    abstract public function getAttributes();
-
     protected static function bootNullableFields()
     {
         self::saving(function ($model) {
