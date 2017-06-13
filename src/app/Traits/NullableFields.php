@@ -25,10 +25,8 @@ trait NullableFields
 
     protected function nullableFromArray(array $attributes = [])
     {
-        if (is_array($this->nullable) && count($this->nullable) > 0) {
-            return array_intersect_key($attributes, array_flip($this->nullable));
-        }
-
-        return [];
+        return is_array($this->nullable) && !empty($this->nullable)
+            ? array_intersect_key($attributes, array_flip($this->nullable))
+            : [];
     }
 }

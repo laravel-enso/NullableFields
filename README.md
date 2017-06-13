@@ -5,6 +5,7 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/nullablefields/version)](https://packagist.org/packages/laravel-enso/nullablefields)
 
 Trait for nullable fields heavily inspired from michaeldyrynda/laravel-nullable-fields package.
+Usefull only with Laravel <= 5.3. L5.4 comes with `TrimStrings` and `ConvertEmptyStringsToNull` by default.
 
 ### Use
 
